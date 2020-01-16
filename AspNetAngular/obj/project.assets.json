@@ -9300,11 +9300,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JancoSteenkamp\\Documents\\Tutorials\\Djamware\\AspNetAngular\\AspNetAngular.csproj",
+      "projectUniqueName": "C:\\Users\\JancoSteenkamp\\Documents\\GtihubRepos\\Angular-ApiCRUD-NorthwindDB\\AspNetAngular\\AspNetAngular.csproj",
       "projectName": "AspNetAngular",
-      "projectPath": "C:\\Users\\JancoSteenkamp\\Documents\\Tutorials\\Djamware\\AspNetAngular\\AspNetAngular.csproj",
+      "projectPath": "C:\\Users\\JancoSteenkamp\\Documents\\GtihubRepos\\Angular-ApiCRUD-NorthwindDB\\AspNetAngular\\AspNetAngular.csproj",
       "packagesPath": "C:\\Users\\JancoSteenkamp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JancoSteenkamp\\Documents\\Tutorials\\Djamware\\AspNetAngular\\obj\\",
+      "outputPath": "C:\\Users\\JancoSteenkamp\\Documents\\GtihubRepos\\Angular-ApiCRUD-NorthwindDB\\AspNetAngular\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JancoSteenkamp\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -29,9 +29,11 @@ export class SupplierEditComponent implements OnInit {
 
   constructor(private router: Router, private route: ActivatedRoute, private api: ApiService, private formBuilder: FormBuilder) { }
 
+  //added supplierId
   ngOnInit() {
     this.getSupplier(this.route.snapshot.params['id']);
     this.supplierForm = this.formBuilder.group({
+      'supplierId' : [null],
       'companyName' : [null, Validators.required],
       'contactName' : [null, null],
       'contactTitle' : [null, null],
@@ -45,10 +47,12 @@ export class SupplierEditComponent implements OnInit {
       'homePage' : [null, null]
     });
   }
+  //Addied SupplierId
   getSupplier(id: number) {
     this.api.getSupplier(id).subscribe(data => {
       this.supplierId = data.supplierId;
       this.supplierForm.setValue({
+        supplierId: data.supplierId,
         companyName: data.companyName,
         contactName: data.contactName,
         contactTitle: data.contactTitle,
